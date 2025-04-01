@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Let's Connect | SVU Summer Jobs</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header>
+  <strong style="font-size: 1.5rem; font-weight: 700;">Moxie Pest Control</strong>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="sales.html">Sales</a>
+    <a href="tech.html">Tech</a>
+    <a href="apply.html">Let's Connect</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h1>Want More Info? Let's Set Up a Call</h1>
+  <form action="https://formspree.io/f/xpwpjgvr" method="POST">
+
+    <input type="hidden" name="_redirect" value="https://yourdomain.com/thankyou.html">
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+
+    <label for="position">Which position are you most interested in?</label>
+    <select id="position" name="position" required>
+      <option value="">Select a position</option>
+      <option value="sales">Sales</option>
+      <option value="tech">Tech</option>
+      <option value="both">Both</option>
+      <option value="unsure">Not Sure Yet</option>
+    </select>
+
+    <label for="day">What day of the week are you most available for a call?</label>
+    <select id="day" name="day" required>
+      <option value="">Select a day</option>
+      <option value="Monday">Monday</option>
+      <option value="Tuesday">Tuesday</option>
+      <option value="Wednesday">Wednesday</option>
+      <option value="Thursday">Thursday</option>
+      <option value="Friday">Friday</option>
+      <option value="Saturday">Saturday</option>
+    </select>
+
+    <label for="message">Anything you'd like us to know before the call?</label>
+    <textarea id="message" name="message" placeholder="Optional: Questions, comments, or schedule notes"></textarea>
+
+    <button type="submit">Schedule My Call</button>
+  </form>
+
+  <p class="note">
+    We'll reach out soon to schedule a short, no-pressure call.
+  </p>
+</div>
+
+</body>
+
+</html>
